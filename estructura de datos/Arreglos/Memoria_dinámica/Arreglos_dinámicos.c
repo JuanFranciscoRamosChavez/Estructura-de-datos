@@ -14,7 +14,7 @@ int main(){
     }
 
     printf("\n\n Ingrese su numero de cuenta: ");
-    scanf("\n\t%d", &num_cuent);
+    scanf(" %d ", &num_cuent);
     ultimo_dig = num_cuent % 10;
     
 	printf("\n El numero de cuenta almacenado se le recorre a su ultimo digito con un -1: ");
